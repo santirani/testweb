@@ -1,0 +1,696 @@
+
+<!DOCTYPE HTML>
+<html lang="en">
+
+<!-- Mirrored from pib.gov.in/AllMediafacilitation.aspx?MenuId=16 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Jul 2023 17:27:10 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="Cache-control" content="public">
+<head id="Head1"><title>
+	Facilities:Press Information Bureau
+</title><meta property="fb:app_id" content="930300783691811" /><link rel="icon" href="https://static.pib.gov.in/WriteReadData/specificdocs/photo/2022/apr/ph20224636301.jpg" type="image/jpg" /><link href="https://static.pib.gov.in/writereaddata/css/style.css" rel="stylesheet" type="text/css" />
+    <!-- Color Theme CSS -->
+    <link rel="alternate stylesheet" href="https://static.pib.gov.in/writereaddata/css/change.css" media="screen" title="change" /><link rel="alternate stylesheet" href="https://static.pib.gov.in/writereaddata/css/green.css" media="screen" title="green" /><link rel="alternate stylesheet" href="https://static.pib.gov.in/writereaddata/css/yellow.css" media="screen" title="yellow" /><link rel="stylesheet" type="text/css" href="https://static.pib.gov.in/writereaddata/css/prtint.css" media="print" />
+    <script type="text/javascript">
+
+        function showdetails(MFID) {
+            console.log(MFID);
+            $.ajax({
+                type: "POST",
+                url: "AllMediaFacilitation.aspx/GetMediaDetails",
+                async: false,
+                data: '{MFID: "' + MFID + '" }',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (response) {
+                    console.log(response.d);
+                    $('[id*=ltlFile]').empty();
+                    var trecord = JSON.parse(response.d);
+                    var contentType = trecord.ContentType;
+                    if (contentType == 2) {
+                        var filepath = "http://164.100.117.97/WriteReadData/mediafacilitation/" + trecord.FileName;
+                        $("[id*=iFrame1]").attr("src", filepath);
+                        return false;
+                    }
+
+                    if (contentType == 1) {
+                     
+                        $('[id*=ltlFile]').append(trecord.conventDescription);
+                        return false;
+                    }
+                    if (contentType == 3) {
+                       
+                        window.open(trecord.ExternalLink, '_blank');
+                        return false;
+                    }
+
+                },
+                failure: function (request, error) {
+                    alert(" Can't do because: " + error);
+                }
+            });
+
+            return false;
+        }
+        $(document).ready(function () {
+
+
+        });
+ 
+    </script>
+<style type="text/css" media="screen">
+ html, body{
+
+font-size:100%;
+}
+</style></head>
+<body id="fontSize">
+    <form method="post" action="https://pib.gov.in/AllMediafacilitation.aspx?MenuId=16" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="script_HiddenField" id="script_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="https://pib.gov.in/WebResource.axd?d=qEIWZBSmnVmxlFDircRFsYgOx5AJZj7fDBDaOfnIiUnJEd0tU1obvC7vl2ZgPKlg5dhEGGKQ786eDjUlRvETKl3z4Wo1&amp;t=637750992597106394" type="text/javascript"></script>
+
+
+<script src="https://pib.gov.in/ScriptResource.axd?d=jE99Xk3jc3ItVB6im_n0O_88O4frdmlBMVTZR80B3z-9uNF_xyxvsmWBTXG-GNsoH4zUBz8uZ1q8GJJPuKuAAz0p_LQQk8Me210D5yKnAr1mhQf_zbaJ52DIAFbfWtjKDiJq3A2&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="https://pib.gov.in/ScriptResource.axd?d=YotdPLvkzZCREYpTJtaP5AHGUddYUlSGTNRjCK4BhQ9cHQGy-PZcg1MqSe3PozY6FYbWp1QPpxwPlPqnHpx2mLGgV7J4cHtAfU2yhGtIJNZWbAYkpdJsABbXnu3N3Ji3WL_ymg2&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="96C62435" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="SVEDbeB2u7x5zVzVuBbcRJjJHATPbhu7TSLsNm4U8Oilkz7pC7xH+as+VwkX/MFh30iFc3bFX9AtC3JNJtVyuaqteQ7/ucQTX3D+5ZAdfICkistNSpGqKksIDlPZSwSxltYdJjfYAb9T6MpLwl4jAaqeqJm2QeR9Iv1ZOHYpM8WkSUoIV9SOaKz8ItPYhAVnGqLxjnCxKBn4LPy9DBAWtHUInEkE4kSlyVzdxMLVOQUZHHIKKIqH2ISyEaSrPsx4iqMAodU7R4FYotjDLCoN/jRbkHXv0gnK2YszkYILmdNxvv3RET2GZ7KulJ8p0xQvxzOe8sAOoUfftYBzO0yWGLCtcvZ+Zw5c7wwAxUJKqUwiXdXyAjGYbISZnteXHh+V200Fo/YdDRWb50aloVohwZ/BwgXKbdDtSlaEoNE3jrkGuzcAbicXRlMYSW/BORYveRjcDweKZvXVoYLeRRWUk1dHAL8Dq4vIJB0drvXBcJU8PCq1NZJ7JrgTpB4nAInURs8dJhalmlHqRBdvzyG+eiTvjKfjuB9HRLctk6ISOkfJPQXwaML1odEJfZ7a/DmqSfdvePuTYTB7hk66N49XkEIfYzfz24JCBijapLDeOGXPY8NkIGfpiIDi4Ll8oLSNMi0Ds5hk35npyFYy625jWRAv2XifUwVuZpbK1r5+hx+2MZ1gzCycsBB0ck44T1fT/GbJLa+RAW53oj4JuGqxXw0IQMG8lZUuNl1dOITvl1OpVHsaSnQe0sj9Sn8YMrO96aPCeA==" />
+</div>
+    
+   
+    
+    <noscript>
+        <div class="nos">
+            <p>
+                JavaScript must be enabled in order for you to use the Site in standard view. However,
+                it seems JavaScript is either disabled or not supported by your browser. To use
+                standard view, enable JavaScript by changing your browser options.</p>
+        </div>
+    </noscript>
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$script', 'form1', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+    <header>
+<div class="top_head">
+<div class="container">
+
+<div class="row">
+<div class="col-md-12 top-acess">
+<div class="pull-left hidden-xs hidden-sm res_pb5">
+<a href= 'https://pib.gov.in/index.aspx'  title="Home"><span class="home"></span></a>
+
+<a href='https://pib.gov.in/SubscribeRelease/SubscribeReleaseForm.aspx' title='Subscribe Release'>
+<span class="subscribe"></span></a> 
+
+<a href='https://pib.gov.in/ViewRss.aspx' target="_blank" title="RSS"><span class="rss"></span></a>
+</div>
+<div class="pull-right">
+<ul id="example1">
+<li class="skin-reader hidden-xs"><a href='https://pib.gov.in/screenReaderAcces.aspx' title='Screen Reader Access '>Screen Reader Access  </a></li>
+<li class="regional res_pb5">
+ <select name="ctl00$Bar1$ddlregion" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$Bar1$ddlregion\&#39;,\&#39;\&#39;)&#39;, 0)" id="Bar1_ddlregion" class="classic form-control">
+	<option selected="selected" value="3">PIB Delhi</option>
+	<option value="1">PIB Mumbai</option>
+	<option value="5">PIB Hyderabad</option>
+	<option value="6">PIB Chennai</option>
+	<option value="17">PIB Chandigarh</option>
+	<option value="19">PIB Kolkata</option>
+	<option value="20">PIB Bengaluru</option>
+	<option value="21">PIB Bhubaneswar</option>
+	<option value="22">PIB Ahmedabad</option>
+	<option value="23">PIB Guwahati</option>
+	<option value="24">PIB Thiruvananthpuram</option>
+	<option value="30">PIB Imphal</option>
+	<option value="31">PIB Aizawl</option>
+	<option value="32">PIB Agartala</option>
+	<option value="33">PIB Gangtok</option>
+	<option value="34">PIB Kohima</option>
+	<option value="35">PIB Shillong</option>
+	<option value="36">PIB Itanagar</option>
+	<option value="37">PIB Lucknow</option>
+	<option value="38">PIB Bhopal</option>
+	<option value="39">PIB Jaipur</option>
+	<option value="40">PIB Patna</option>
+	<option value="41">PIB Ranchi</option>
+	<option value="42">PIB Shimla</option>
+	<option value="43">PIB Raipur</option>
+
+</select>
+
+</li>
+<li class="language res_pb5">
+ <select name="ctl00$Bar1$ddlLang" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$Bar1$ddlLang\&#39;,\&#39;\&#39;)&#39;, 0)" id="Bar1_ddlLang" class="form-control">
+	<option selected="selected" value="1">English</option>
+	<option value="2">Hindi</option>
+	<option value="3">Urdu</option>
+
+</select>
+
+</li>
+<li class="icon res_icon"><a href="https://pib.gov.in/index.aspx" title="Home"><span class="home"></span></a></li>
+<li class="icon res_icon"><a href="https://pib.gov.in/SubscribeRelease/SubscribeReleaseForm.aspx" title="Subscribe Release"><span class="subscribe"></span></a></li>
+<li class="icon res_icon"><a href="https://pib.gov.in/ViewRss.aspx" title="RSS"><span class="rss"></span></a></li>
+
+<li class="icon"><a href="#main-nav" title="Skip to Content"><img src='https://pib.gov.in/images/skip-icon.png' alt="Skip to Content" /></a></li>
+<li class="icon dropdown"><a href="javascript:void(0)"><img 
+src='https://pib.gov.in/images/handicape-icon.png'
+alt="Handicape" title="Handicape" /></a>
+<ul class="dropdown-content">
+		<li><a href="#" title="Decrease Font Size" onClick="set_font_size('decrease')"><img src='https://pib.gov.in/images/decrease-font-size.png' 
+         alt="Normal Font Size" title="Decrease Font Size" /></a></li>
+		<li><a href="#" title="Normal Font Size" onclick="set_font_size('')" class=""><img 
+        src='https://pib.gov.in/images/standard-view.png'
+         alt="Normal Font Size" title="Normal Font Size" /></a></li>
+		<li><a href="#" title="Increase Font Size" onclick="set_font_size('increase')"><img
+        src='https://pib.gov.in/images/increase-text-size.png' 
+         alt="Normal Font Size" title="Increase Font Size" /></a></li>
+		<li class=""><a href="javascript:void(0)" title="High Contrast" onclick="setActiveStyleSheet('change'); return false;"><img 
+        src='https://pib.gov.in/images/high-contrast.png' 
+         alt="High Contrast" title="High Contrast" /></a></li>
+		<li class=""><a href="javascript:void(0)" title="Normal Theme" onclick="setActiveStyleSheet('normal'); return false;"><img src='https://pib.gov.in/images/standard-view.png'  alt="Normal Theme" title="Normal Theme" /></a></li>
+	</ul>
+</li>
+<li class="icon dropdown"><a href="javascript:void(0)"><img src='https://pib.gov.in/images/theme.png' alt="Color Theme" title="Color Theme"></a>
+	<ul class="dropdown-content">
+		
+		<li><a href="javascript:void(0)" title="Green" onclick="setActiveStyleSheet('green'); return false;"><img src='https://pib.gov.in/images/green.png' alt="" title="Green" /></a></li>
+		<li><a href="javascript:void(0)" title="Orange" onclick="setActiveStyleSheet('orange'); return false;"><img src='https://pib.gov.in/images/yello.png' alt="" title="Orange" /></a></li>		
+	</ul>
+</li>
+
+<li class="icon"><a href='https://pib.gov.in/SiteMap.aspx'><img src='https://pib.gov.in/images/sitemap.png' alt="Sitemap" title="Sitemap"></a></li>
+ <li class="icon"><a href='https://pib.gov.in/AdvanceSearch.aspx'><img src='https://pib.gov.in/images/search.png' alt="Advance Search" title="Advance Search" /></a>
+</li>
+<!-- 
+<li class="icon dropdown"><a href=""><img src="images/language-icon.png" alt="Language" title="Language"></a>
+<ul class="dropdown-content">
+		<li><a href="#" title="Red" onclick="setActiveStyleSheet('red'); return false;"><img src="images/hindi.png" alt="Hindi" title="Hindi"></a></li>
+		<li><a href="#" title="Green" onclick="setActiveStyleSheet('green'); return false;"><img src="images/english.png" alt="English" title="English"></a></li>
+	</ul>
+</li> -->
+
+</ul>
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+<div class="mid-head">
+<div class="container">
+<div class="row">
+<div class="col-md-5">
+ <div class="indian-emblem"> <a href='https://pib.gov.in/index.aspx'> <img src='https://pib.gov.in/images/indian-emblem.png'  alt="Indian Emblem" title="Indian Emblem" /></a> </div>
+      <div class="logo">
+        <h1><a href='https://pib.gov.in/index.aspx' title="Press Information Bureau">Press Information Bureau</a> </h1>
+        <h2>Government of India</h2>
+ 
+      </div>
+
+</div>
+<div class="col-md-3">
+<a href='https://amritmahotsav.nic.in/' target='_blank'>
+<img src="https://static.pib.gov.in/WriteReadData/specificdocs/photo/2021/aug/ph202183101.png" style="  width: 50%;  "  title="Azadi Ka Amrit Mahotsav" alt="Azadi Ka Amrit Mahotsav" />
+</a>
+</div>
+
+<div class="col-md-3">
+           <a href="https://pib.gov.in/newsite/g20india.aspx" target="_blank">
+ 
+ <img src="https://static.pib.gov.in/WriteReadData/specificdocs/photo/2022/nov/ph20221121131401.png" style="  width: 50%;  " title="g20-india-2023" alt="g20-india-2023">
+ </a>
+</div>
+    <div class="col-md-1"> </div>
+  
+ 
+  <!--  factcheck start link -->
+   
+                     <!--  factcheck end link -->
+  
+
+</div>
+</div>
+</div>
+</div>
+</header>
+    <div class="mean-container">
+    </div>
+    <div id="main-nav" class="navigation-bg" style="display: none;">
+        <nav>
+	<div class="container">
+         <ul class='clearfix sf-menu' id='example'><li><a title='Home' href='https://pib.gov.in/index.aspx?Lang=1&amp;Region=3'><i class='fa-home_r'></i></a></li><li class='has-sub'><a title='About Us' href='#' >About Us</a><ul><li><a target='_blank' title='About PIB' href='https://pib.gov.in/aboutpibn.aspx'>About PIB</a></li><li><a target='_blank' title='Main Functions' href='https://pib.gov.in/mainfunctions.aspx'>Main Functions</a></li><li><a target='_blank' title='Organizational Setup' href='https://pib.gov.in/organisationalsetup.aspx'>Organizational Setup</a></li><li><a target='_blank' title='Photo Gallery of PrDGs/PIOs' href='https://pib.gov.in/headsofpib.aspx'>Photo Gallery of PrDGs/PIOs</a></li><li><a target='_blank' title='Who’s Who at PIB' href='https://pib.gov.in/content/3714_5_Pib.gov.in.aspx'>Who’s Who at PIB</a></li></ul></li><li class='has-sub'><a title='Press Releases' href='#' class='has-sub'>Press Releases</a><ul><li><a title='All Releases' href='https://pib.gov.in/allRel.aspx'>All Releases</a></li><li><a title='PMO Releases' href='https://pib.gov.in/allRel.aspx'>PMO Releases</a></li><li><a target='_blank' title='All Releases 2004 to 2017' href='https://archive.pib.gov.in/archive2/erelease.aspx'>All Releases 2004 to 2017</a></li></ul></li><li class='has-sub'><a title='Gallery' href='#' >Gallery</a><ul><li><a  title='Photos' href='https://pib.gov.in/PhotogalleryNew.aspx'>Photos</a></li><li><a title='Videos' href='https://pib.gov.in/VideoGallery.aspx?MenuId=714'>Videos</a></li><li><a title='E-Booklets' href='https://pib.gov.in/ViewAllEbooklet.aspx?MenuId=715'>E-Booklets</a></li><li><a title='InfoGraphics' href='https://pib.gov.in/AllInfographics.aspx?MenuId=716'>InfoGraphics</a></li><li><a  title='Webcast Videos' href='https://pib.gov.in/WebcastMore.aspx'>Webcast Videos</a></li><li><a  title='All Events' href='https://pib.gov.in/Events.aspx'>All Events</a></li></ul></li><li class='has-sub'><a title='Research Unit' href='#' >Research Unit</a><ul><li><a target='_blank' title='Explainer' href='https://pib.gov.in/ViewBackgrounder.aspx?MenuId=51'>Explainer</a></li><li><a target='_blank' title='Factsheets' href='https://pib.gov.in/AllFactsheet.aspx?MenuId=12'>Factsheets</a></li><li><a target='_blank' title='FAQ' href='https://pib.gov.in/Viewfaq.aspx?MenuId=709'>FAQ</a></li><li><a target='_blank' title='Features' href='https://pib.gov.in/ViewFeatures.aspx?MenuId=5'>Features</a></li><li><a target='_blank' title='Amrit Yatra ' href='https://pib.gov.in/akam_factsheet.aspx'>Amrit Yatra </a></li></ul></li><li class='has-sub'><a title='Media Facilitation' href='#' >Media Facilitation</a><ul><li><a target='_blank' title='Accreditations' href='https://pib.gov.in/ViewAccriditionList.aspx?AccredationID=2725'>Accreditations</a></li><li><a target='_blank' title='Facilities' href='https://pib.gov.in/AllMediafacilitation.aspx?MenuId=16'>Facilities</a></li><li><a target='_blank' title='Media Invitations' href='https://pib.gov.in/AllMediaInvitation.aspx'>Media Invitations</a></li><li><a target='_blank' title='Media List' href='http://accreditation.pib.gov.in/acridexsrch.aspx'>Media List</a></li><li><a target='_blank' title='JWS' href='https://accreditation.pib.gov.in/jws/default.aspx'>JWS</a></li></ul></li><li class='has-sub'><a title='Archives' href='#' >Archives</a><ul><li><a target='_blank' title='About Archives' href='https://pib.gov.in/Aboutarchive.aspx'>About Archives</a></li><li><a target='_blank' title='1947-2001' href='https://archive.pib.gov.in/archive/phase2/archiveministry.aspx?phase=3'>1947-2001</a></li><li><a target='_blank' title='2002-2003' href='https://archive.pib.gov.in/newsite/archivepage.aspx'>2002-2003</a></li><li><a target='_blank' title='2004 Onwards' href='https://archive.pib.gov.in/archive2/'>2004 Onwards</a></li></ul></li><li class='has-sub'><a title='Fact Check Unit' href='#' >Fact Check Unit</a><ul><li><a target='_blank' title='About Fact Check Unit' href='https://pib.gov.in/aboutfactchecke.aspx'>About Fact Check Unit</a></li><li><a target='_blank' title='Submit for Fact Check' href='https://factcheck.pib.gov.in/'>Submit for Fact Check</a></li><li><a target='_blank' title='FAQ' href='https://pib.gov.in/FAQ_fact.aspx'>FAQ</a></li><li><a target='_blank' title='Fact Check in Numbers' href='https://static.pib.gov.in/WriteReadData/specificdocs/documents/2023/jun/doc2023630219101.pdf'>Fact Check in Numbers</a></li><li><a target='_blank' title='Fact Check Done' href='https://static.pib.gov.in/WriteReadData/specificdocs/documents/2023/jun/doc202361207501.pdf'>Fact Check Done</a></li><li><a target='_blank' title='Fraudulent Websites' href='https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/nov/doc20221124135101.pdf'>Fraudulent Websites</a></li></ul></li></ul>
+<style type="text/css">
+    .menuchang {
+        background-image:url('https://pib.gov.in/images/new.gif')  ;
+        background-repeat: no-repeat;
+        padding-right:5px;
+        background-position:top;
+    }
+     .fa-home_r::after {
+        content: url(https://static.pib.gov.in/WriteReadData/userfiles/f_hom.png);
+        position: relative;
+        z-index: 100000;
+        top: 0;
+        bottom: 0;
+    }
+    </style>
+		
+	</div>
+</nav>
+    </div>
+    <!-- Menu Part End -->
+    <div class="clearfix">
+    </div>
+    
+    <div class="clearfix">
+    </div>
+    <section class="pt20">
+<div class="container">
+<ol class="breadcrumb">
+
+	
+  <li class="breadcrumb-item"><a href='https://pib.gov.in/index.aspx' class="active">Home</a></li>
+  <li class="breadcrumb-item active">	<a href="#">All Media Facilitation</a></li>
+
+  <li class="pull-right">
+<div class="print-icons">
+<input type="image" name="ctl00$ContentPlaceHolder1$Print1$print" id="ContentPlaceHolder1_Print1_print" src="https://pib.gov.in/images/printer_icon.png" />
+</div></li>
+</ol>
+</div>
+</section>
+    <section class="pb40">
+<div class="container">
+
+
+
+<div class="clearfix"></div>
+
+
+<div class="row pt20">
+<div class="col-md-3 col-sm-3 col-xs-12">
+  
+      <ul class='level1 li'>
+      
+      <li> 
+     <a onclick='return showdetails(35)' href="#">पत्रकार कल्याण योजना/ऑफलाइन फॉर्म</a>
+     
+      
+      <li> 
+     <a onclick='return showdetails(33)' href="#">Guidelines of Journalist Welfare Scheme</a>
+     
+      
+      <li> 
+     <a onclick='return showdetails(32)' href="#">Railway Concession to dependent children and companion of accredited journalists</a>
+     
+      
+      <li> 
+     <a onclick='return showdetails(30)' href="#">New scheme to photo I-card for availing railway concession by accredited journalists</a>
+     
+      
+      <li> 
+     <a onclick='return showdetails(29)' href="#">प्रत्‍यायित पत्रकारों के आश्रित बच्चों  एवं सहयात्री को रेल किराये में रियायत</a>
+     
+      
+      <li> 
+     <a onclick='return showdetails(28)' href="#">प्रत्‍यायित पत्रकारों द्वारा रेलवे रियायत का फायदा उठाने के लिए  फोटो पहचान पत्र  की नई योजना</a>
+     
+      
+      <li> 
+     <a onclick='return showdetails(22)' href="#">CGHS Benefits</a>
+     
+      
+      <li> 
+     <a onclick='return showdetails(19)' href="#">Extension of CGHS facilities to the dependent family members of Accredited Journalist</a>
+     
+      
+      <li> 
+     <a onclick='return showdetails(15)' href="#">सीजीएचएस के लाभ</a>
+     
+      
+      <li> 
+     <a onclick='return showdetails(9)' href="#">पत्रकारों के परिवार के लिए सीजीएचएस सुविधाओं का विस्तार</a>
+     
+      
+      </ul>
+      
+ 
+</div>
+
+<div class="col-md-9 col-sm-9 col-xs-12">
+<div class="content-area">
+
+<div class="clearfix"></div>
+
+
+ 
+<span id="ContentPlaceHolder1_ltlFile"></span>
+
+<iframe id="ContentPlaceHolder1_iFrame1" width="810px" height="800px" scrolling="Yes" frameborder="2" style="OVERFLOW: auto" align="absMiddle"></iframe>
+
+    
+</div>
+
+</div>
+</div>
+</div>
+</section>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+   
+    <div class="container">
+        <div class="col-md-6 s_padd">
+            <center>
+                <img alt="Link mygov.in" title="Link mygov.in" width="100%" height="80px" src="https://cbpssubscriber.mygov.in/assets/uploads/X0qP81f7lg3YqNFI"
+                    id="Img1" onclick="javascript:window.open('https://cbpssubscriber.mygov.in/aff/To159l5GKG3cPNYR')"
+                    style="cursor: pointer; margin-top: 10px;" onload="javascript:(function(){if(typeof _done == 'undefined' || !_done){this.setAttribute('src', this.getAttribute('src')+'?'+Math.floor((Math.random() * 100) + 1)); _done=true;}}).call(this)">
+            </center>
+        </div>
+        <div class="col-md-6 s_padd">
+            <div class="col-md-12">
+                <center>
+                    <div class="link_ss">
+                        Download PIB APP
+                    </div>
+                </center>
+            </div>
+            <div class="col-md-6" style="padding-right: 5px;">
+                <center>
+                    <a href="https://play.google.com/store/apps/details?id=com.nic.pib" target="_blank"
+                        style="text-decoration: none;">
+                        
+                        <img src="https://pib.gov.in/images/android1.png" class="img-responsive" style="float: right" />
+                    </a>
+                </center>
+            </div>
+            <div class="col-md-6" style="padding-left: 5px;">
+                <center>
+                    <a href="https://apps.apple.com/in/app/press-information-bureau-pib/id1234194630"
+                        target="_blank" style="text-decoration: none;">
+                        
+                        <img src="https://pib.gov.in/images/ios.png" class="img-responsive" style="float: left" />
+                    </a>
+                </center>
+            </div>
+        </div>
+    </div>
+    
+ <section class="logos_scroller">
+<div class="container">
+<ul id="flexiselDemo3">
+ <li><a href='https://eci.gov.in/'target="_blank" onclick="return confirm('This link will take you to a webpage outside this websiteinteractive page. Click OK to continue.Click Cancel to stop')" ><img   src='https://static.pib.gov.in/WriteReadData/RelatedLink/Images/eci_0.png' alt="abc" title="Election Commission of India "> </a></li> </a></li><li><a href='https://egazette.nic.in/'target="_blank" onclick="return confirm('This link will take you to a webpage outside this websiteinteractive page. Click OK to continue.Click Cancel to stop')" ><img   src='https://static.pib.gov.in/WriteReadData/RelatedLink/Images/e-gazette_0.png' alt="abc" title="E Gazette India "> </a></li> </a></li><li><a href='https://pmnrf.gov.in/'target="_blank" onclick="return confirm('This link will take you to a webpage outside this websiteinteractive page. Click OK to continue.Click Cancel to stop')" ><img   src='https://static.pib.gov.in/WriteReadData/RelatedLink/Images/pmnrf.png' alt="abc" title="Prime Minister&#039;s National Relief Fund "> </a></li> </a></li><li><a href='https://www.makeinindia.com/home'target="_blank" onclick="return confirm('This link will take you to a webpage outside this websiteinteractive page. Click OK to continue.Click Cancel to stop')" ><img   src='https://static.pib.gov.in/WriteReadData/RelatedLink/Images/makeinindia_0.png' alt="abc" title="Make in India "> </a></li> </a></li><li><a href='https://pgportal.gov.in/'target="_blank" onclick="return confirm('This link will take you to a webpage outside this websiteinteractive page. Click OK to continue.Click Cancel to stop')" ><img   src='https://static.pib.gov.in/WriteReadData/RelatedLink/Images/pg-portal_0.png' alt="abc" title="Grievance Redress Mechanism in Government "> </a></li> </a></li><li><a href='https://goidirectory.nic.in/'target="_blank" onclick="return confirm('This link will take you to a webpage outside this websiteinteractive page. Click OK to continue.Click Cancel to stop')" ><img   src='https://static.pib.gov.in/WriteReadData/RelatedLink/Images/goidirectory_0.png' alt="abc" title="Goi Web Directory "> </a></li> </a></li>
+
+</ul>
+ </div>
+ </section>
+ 
+ <footer>
+<div class="footer-top">
+<div class="container">
+<div class="row">
+
+<div class='col-md-8 col-xs-12 '><h4>RTI and Contact Us</h4><ul class='ulfooter' ><li ><a title='WHO’S WHO AT PIB' href='https://pib.gov.in/content/3714_5_Pib.gov.in.aspx'>WHO’S WHO AT PIB</a></li><li ><a title='Telephone Nos of PIB Officers of Hqrs' href='https://pib.gov.in/content/3663_5_pib.nic.in.aspx'>Telephone Nos of PIB Officers of Hqrs</a></li><li ><a title='Telephone Number of Regional Branch Offices of PIB ' href='https://pib.gov.in/content/3664_5_pib.nic.in.aspx'>Telephone Number of Regional Branch Offices of PIB </a></li><li class='col-md-0'><a title='This link shall take you to an external website' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' href='https://static.pib.gov.in/WriteReadData/specificdocs/documents/2023/jul/doc2023712222301.pdf'>Public Grievance Officer</a></li><li class='col-md-0'><a title='This link shall take you to an external website' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' href='https://static.pib.gov.in/WriteReadData/specificdocs/documents/2023/may/doc2023530206401.pdf'>CPIOs Appellate Authority List</a></li><li class='col-md-0'><a title='This link shall take you to an external website' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' href='https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/aug/doc202282696901.pdf'>Information Manual</a></li><li class='col-md-0'><a title='This link shall take you to an external website' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' href='https://static.pib.gov.in/WriteReadData/specificdocs/documents/2023/apr/doc2023412179901.pdf'>Citizen Charter</a></li><li class='col-md-0'><a title='This link shall take you to an external website' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' href='https://static.pib.gov.in/WriteReadData/specificdocs/documents/2023/jun/doc2023613211101.pdf'>Transparency Audit</a></li><li class='col-md-0'><a title='This link shall take you to an external website' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' href='https://static.pib.gov.in/WriteReadData/specificdocs/documents/2023/may/doc2023531207101.pdf'>Allocation Budget</a></li><li class='col-md-0'><a title='This link shall take you to an external website' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' href='https://static.pib.gov.in/WriteReadData/specificdocs/documents/2023/mar/doc2023324175901.pdf'>Internal Complaints Committee</a></li><li ><a title='Liaison Officer' href='https://pib.gov.in/content/3705_5_pib.nic.in.aspx'>Liaison Officer</a></li><li class='col-md-0'><a title='This link shall take you to an external website' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' href='https://static.pib.gov.in/WriteReadData/specificdocs/documents/2023/jul/doc2023721227001.pdf'>Work Allocation</a></li><li ><a title='Web Information Manager ' href='https://pib.gov.in/content/3709_5_pib.nic.in.aspx'>Web Information Manager </a></li><li class='col-md-0'><a title='This link shall take you to an external website' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' href='https://static.pib.gov.in/WriteReadData/specificdocs/documents/2023/jun/doc2023613211701.pdf'>RTI Transparency Audit Compliance</a></li><li class='col-md-0'><a title='This link shall take you to an external website' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' href='https://static.pib.gov.in/WriteReadData/specificdocs/documents/2023/may/doc2023531207001.pdf'>Delegation of financial powers</a></li><li class='col-md-0'><a title='This link shall take you to an external website' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' href='https://static.pib.gov.in/WriteReadData/specificdocs/documents/2023/jun/doc2023612210901.pdf'>Amendment of Recruitment Rules</a></li></ul></div><div class='col-md-4 col-xs-12 firstulfooter'><h4>GOI Links</h4><ul class='ulfooter' ><li class='col-md-0'><a title='This link shall take you to an external website' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' href='https://mib.gov.in/'>Ministry of Information and Broadcasting</a></li><li class='col-md-0'><a title='This link shall take you to an external website' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' href='https://agricoop.nic.in/'>Ministry of Agriculture & Farmers Welfare</a></li><li class='col-md-0'><a title='This link shall take you to an external website' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' href='http://ministryoftextiles.gov.in/'>Ministry of Textiles</a></li><li class='col-md-0'><a title='This link shall take you to an external website' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' href='https://commerce.gov.in/'>Ministry of Commerce & Industry </a></li><li class='col-md-0'><a title='This link shall take you to an external website' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' href='https://mod.gov.in/'>Ministry of Defence</a></li><li class='col-md-0'><a title='This link shall take you to an external website' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' href='https://www.finmin.nic.in/'>Ministry of Finance</a></li><li class='col-md-0'><a title='This link shall take you to an external website' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' href='https://www.mohfw.gov.in/'>Ministry of Health and Family Welfare</a></li><li class='col-md-0'><a title='This link shall take you to an external website' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' href='https://mha.gov.in/'>Ministry of Home Affairs</a></li><li class='col-md-0'><a title='This link shall take you to an external website' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' href='http://mohua.gov.in/'>Ministry of Housing and Urban Affairs</a></li><li class='col-md-0'><a title='This link shall take you to an external website' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' href='https://mhrd.gov.in/'>Ministry of Education</a></li></ul><span class='more'><a href='https://pib.gov.in/content/25_5_more.aspx'>More</a></span></div>
+
+</div>
+</div>
+</div>
+<div class="footer-bottom">
+<div class="container">
+<ul >
+<li><a  title='Tenders' href='https://pib.gov.in/content/99_2_Tenders.aspx'>Tenders</a></li><li><a  title='Archives' href='https://archive.pib.gov.in/archivem/' target='_blank'>Archives</a></li><li><a  title='Terms & Conditions' href='https://pib.gov.in/content/101_2_Terms-and-Conditions.aspx'>Terms & Conditions</a></li><li><a  title='Copyright Policy' href='https://pib.gov.in/content/102_2_Copyright-Policy.aspx'>Copyright Policy</a></li><li><a  title='Privacy Policy' href='https://pib.gov.in/content/103_2_Privacy-Policy.aspx'>Privacy Policy</a></li><li><a  title='Hyperlinking Policy' href='https://pib.gov.in/content/104_2_Hyperlinking-Policy.aspx'>Hyperlinking Policy</a></li><li><a  title='Help' href='https://pib.gov.in/content/105_2_Help.aspx'>Help</a></li>
+
+</ul>
+
+<p class="text-center"><span class="footer-nic">Site is hosted by National Informatics Centre (NIC). Information is provided and updated by Press Information Bureau “A” wing, Shastri Bhawan, Dr. Rajendra Prasad Road, New Delhi – 110001, Phone: 23389338.</span></p>
+<div class="clearfix"></div>
+<div class="pull-left"><b>Visitor Counter: </b><span>105295</span></div>
+ <div class="pull-right">Last Updated On: <strong><span id="ctl08_lblUpdated">26 Jul 2023 21:37:00 PM</span></strong></div> 
+</div>
+</div>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110683570-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-110683570-1');
+</script>
+</footer>
+   
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("script_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();//]]>
+</script>
+</form>
+
+    
+
+ <script type="text/javascript" src="https://static.pib.gov.in/writereaddata/js/all.js"></script> 
+
+
+ <script type="text/javascript">
+        jQuery(document).ready(function () {
+            jQuery('#main-nav nav').meanmenu()
+        });
+        
+    </script>
+
+<script type="text/javascript" src="https://static.pib.gov.in/writereaddata/js/custom.js"></script>
+
+
+
+
+    <style type="text/css">
+        .s_padd
+        {
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+        }
+        
+        .link_ss
+        {
+            background: #f99426;
+            color: #fff;
+            text-align: center;
+            font-size: 144%;
+            padding: 2px 2px;
+            border-radius: 7px;
+            text-decoration: none;
+            margin-top: 9px;
+            width: 40%;
+            border-bottom: 5px solid green;
+        }
+        .link_s
+        {
+            background: black;
+            color: #fff;
+            text-align: center;
+            font-size: 144%;
+            padding: 2px 2px;
+            border-radius: 7px;
+            text-decoration: none;
+            margin-top: 9px;
+        }
+        @media only screen and (max-device-width:767px)
+        {
+            .img_d
+            {
+                display: none;
+            }
+            #pnlsearch
+            {
+                display: none;
+            }
+            .navigation-bg
+            {
+                display: none !important;
+            }
+            .link_ss
+            {
+                width: 63% !important;
+            }
+        }
+        @media only screen and (min-device-width:768px)
+        {
+            .img_d
+            {
+                display: block !important;
+            }
+            .navigation-bg
+            {
+                display: block !important;
+            }
+        }
+    </style>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112591026-1"></script>
+    <script>
+
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() { dataLayer.push(arguments); }
+
+        gtag('js', new Date());
+
+
+
+        gtag('config', 'UA-112591026-1');
+
+    </script>
+    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#rmhover").click(function () {
+                $(this).fadeOut();
+                $("#rmpopup").fadeOut();
+            });
+
+            $("#rmclose").click(function () {
+                $("#rmhover").fadeOut();
+                $("#rmpopup").fadeOut();
+            });
+            setTimeout(function () { $("#rmhover").fadeOut() }, 15000);
+            setTimeout(function () { $("#rmpopup").fadeOut() }, 15000);
+
+        });
+    </script>
+    <style type="text/css">
+        
+
+        .fea_B
+        {
+            display: inline-block;
+            position: relative;
+            background: none;
+            border: none;
+            width: 100%;
+            padding: 6px 9px;
+            color: #fff;
+            cursor: pointer;
+            background: #ff9d1e;
+            margin-bottom: 20px;
+            transition: 0.2s;
+            margin-top: 7px;
+            text-align: center;
+            margin-bottom: 0px;
+        }
+        
+        .fea_B::before, .fea_B::after
+        {
+            content: "";
+            width: 0;
+            height: 2px;
+            position: absolute;
+            transition: all 0.2s linear;
+            background: #ff9d1e;
+        }
+        
+        .fea_B span::before, .fea_B span::after
+        {
+            content: "";
+            width: 2px;
+            height: 0;
+            position: absolute;
+            transition: all 0.2s linear;
+            background: #ff9d1e;
+        }
+        .fea_B:hover
+        {
+            width: 100%;
+            background: #ffffff;
+            color: #525252;
+        }
+        .fea_B:hover::before, .fea_B:hover::after
+        {
+            width: 100%;
+        }
+        .fea_B:hover span::before, .fea_B:hover span::after
+        {
+            height: 100%;
+        }
+        
+        
+        .fea_B::after
+        {
+            left: 0;
+            bottom: 0;
+            transition-duration: 0.4s;
+        }
+        .fea_B span::after
+        {
+            right: 0;
+            top: 0;
+            transition-duration: 0.4s;
+        }
+        .fea_B::before
+        {
+            right: 0;
+            top: 0;
+            transition-duration: 0.4s;
+        }
+        .fea_B span::before
+        {
+            left: 0;
+            bottom: 0;
+            transition-duration: 0.4s;
+        }
+    </style>
+</body>
+
+<!-- Mirrored from pib.gov.in/AllMediafacilitation.aspx?MenuId=16 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Jul 2023 17:27:10 GMT -->
+</html>
